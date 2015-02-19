@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent"
+  android:layout_width="fill_parent">
+
+<LinearLayout
+    android:id="@+id/linearLayout0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+ 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" 
+        >
+ 
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="animal"
+            android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="hometown"
+            android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="ball"
+            android:background="@drawable/button_customize2"/>
+ 
+    </LinearLayout>
+         
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+ 
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="coin"
+            android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="age"
+        	android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="instrument"
+            android:background="@drawable/button_customize2"/>
+ 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="job"
+            android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="planet"
+            android:background="@drawable/button_customize2"/>
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:text="blood group"
+            android:background="@drawable/button_customize2"/>
+ 
+    </LinearLayout>
+ 
+</LinearLayout>
+</ScrollView>
